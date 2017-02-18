@@ -8,12 +8,12 @@
 # Site Settings
 locale                   : "en"
 title                    : "milkyklim"
-title_separator          : "-"
+title_separator          : "|"
 name                     : "Klim Kolyvanov"
-description              : "About all that is going around"
-url                      : "http://localhost:4000" # "https://milkyklim.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "Taking it to another level. Mathematician writing about life and science related problems."
+url                      : "https://milkyklim.github.io" # "http://localhost:4000" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "milkyklim" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "milkyklim/milkyklim.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -27,7 +27,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : "dark" # "light" (default), "dark"
+    colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "master"
