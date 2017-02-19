@@ -185,6 +185,9 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-typogrify
+
+
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -193,6 +196,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-typogrify # might be unnecessary here 
 
 
 # Archives
@@ -245,3 +249,10 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
