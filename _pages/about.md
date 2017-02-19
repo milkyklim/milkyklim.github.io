@@ -2,8 +2,6 @@
 layout: single
 permalink: /about/
 ---
-about me
-
 in 100 words:
 
 * I am Klim; owner of an awesome palindrome nickname.
