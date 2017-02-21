@@ -1,26 +1,27 @@
 ---
 layout: single
+title: "How to fix MaMuT annotation"
 ---
 
-I am going through the worst process computer scientist can imagine - *C.elegans* worm annotation (okay, fixing printers might be even worse). 
+I am going through the worst process computer scientist can imagine - *C.elegans* worm annotation (okay, fixing printers might be even worse).
 
-Unfortunately, this work can't be fully automated and I have to use MaMuT and click each cell separately, sometimes twice. Rough estimation says I will end up with over 20 000 clicks. 
+Unfortunately, this work can't be fully automated and I have to use MaMuT and click each cell separately, sometimes twice. Rough estimation says I will end up with over 20 000 clicks.
 
-Despite the fact, I was extremely careful - saving the results to two different files and pushing them to github - I made a **crucial** mistake at the beginning. 
+Despite the fact, I was extremely careful - saving the results to two different files and pushing them to github - I made a **crucial** mistake at the beginning.
 
-I have a dataset acquired from **lightsheet microscope**. 
+I have a dataset acquired from **lightsheet microscope**.
 
-/image/ 
+/image/
 
-It is blury in Z direction and to fix this problem the technique called deconvolution is used. In my case the deconvolved image is **cropped and scaled**.
+It is blurry in Z direction and to fix this problem the technique called deconvolution is used. In my case the deconvolved image is **cropped and scaled**.
 
-I missed this fact and figured that out only after annotating ~70 time frames (took me about 4 days of constant clicking). In total I have more than 300 frames. 
+I missed this fact and figured that out only after annotating ~70 time frames (took me about 4 days of constant clicking). In total I have more than 300 frames.
 
-There were 2 options at that point. start annotaiting initial data from scratch (sic!) or somehow transfer annotation from deconvolved images to initial data. 
+There were 2 options at that point. start annotaiting initial data from scratch (sic!) or somehow transfer annotation from deconvolved images to initial data.
 
-Here we will look into second option. :) 
+Here we will look into second option. :)
 
-MaMuT produces the xml file with human-understandable layout. 
+MaMuT produces the xml file with human-understandable layout.
 
 /code example/
 
@@ -33,7 +34,7 @@ MaMuT produces the xml file with human-understandable layout.
 ```
 
 
-In my case, the positions were wrong. Took me a day to figure out the transformation but now I have a working plugin that can save your life if you have a week or even month of work done. 
+In my case, the positions were wrong. Took me a day to figure out the transformation but now I have a working plugin that can save your life if you have a week or even month of work done.
 
 /image plugin/
 
@@ -41,16 +42,16 @@ In the input window fill in the translation and scaling factors and wait for mag
 
 Keep in mind the plugin first applies scaling and after that translation.
 
-Both values should be relatively easy to find out. To find translation vector, open image in Fiji, zoom it in and check the value in the left upper corner. 
+Both values should be relatively easy to find out. To find translation vector, open image in Fiji, zoom it in and check the value in the left upper corner.
 
-/image/ 
+/image/
 
-To find out the scaling factor try to remember if you ever resaved your data or shrank the image. 
+To find out the scaling factor try to remember if you ever resaved your data or shrank the image.
 
 *I skipped rotation because I didn't use it.*
 
-The resulting annotation is saved to the file *your-file-name*-fixed.xml. The code is available on GitHub. Have a look into [ImageJ Wiki](http://imagej.net/Installing_3rd_party_plugins) for installation instructions. 
+The resulting annotation is saved to the file *your-file-name*-fixed.xml. The code is available on GitHub. Have a look into [ImageJ Wiki](http://imagej.net/Installing_3rd_party_plugins) for installation instructions.
 
 The plugin also tries to save your bookmarks but I have never checked it properly.
- 
-*add bookmarks saver 
+
+*add bookmarks saver

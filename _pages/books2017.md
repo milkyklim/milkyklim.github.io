@@ -7,7 +7,7 @@ February:
 * Zero to One: Notes on Startups, or How to Build the Future -- Peter Thiel
 
 January:
-* Philosophy 101: From Plato and Socrates to Ethics and Metaphysics, an Essential Primer on the History of Though -- Paul Kleinman
+* Philosophy 101: From Plato and Socrates to Ethics and Metaphysics, an Essential Primer on the History of Thought -- Paul Kleinman
 * The Sea Close By -- Albert Camus
 * Пиши, Сокращай -- Максим Ильяхов и Людмила Сарычева
 * The Picture of Dorian Gray -- Oscar Wilde
