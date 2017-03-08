@@ -83,18 +83,18 @@ author:
   location         : "Berlin"
   email            : "klim.kolyvanov@gmail.com"
   vk               : "milkyklim"
-  uri              : 
-  bitbucket        : 
-  codepen          : 
-  dribbble         : 
-  flickr           : 
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
   facebook         : "klim.kolyvanov"
   foursquare       :
   github           : "milkyklim"
-  google_plus      : 
-  keybase          : 
+  google_plus      :
+  keybase          :
   instagram        : "klim.kolyvanov"
-  lastfm           : 
+  lastfm           :
   linkedin         : "klimkolyvanov"
   pinterest        :
   soundcloud       :
@@ -196,7 +196,10 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-typogrify # might be unnecessary here 
+  - jekyll-typogrify # might be unnecessary here
+  - jekyll-tagging # might be unnecessary here
+
+
 
 
 # Archives
@@ -223,9 +226,9 @@ tag_archive:
 #   layouts:
 #     category: archive-taxonomy
 #     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+# permalinks:
+#   category: /categories/:name/
+#   tag: /tags/:name/
 
 
 # HTML Compression
@@ -256,3 +259,17 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+# used by tag-generating plugin
+tag_page_layout: tag_page
+tag_page_dir: tags
+# per tag rss
+tag_feed_layout: tag_feed
+tag_feed_dir: tags
+# for pretty tag links
+tag_permalink_style: pretty
+# ignore some tags
+ignored_tags: [washing-machine]
+# exclude tags from site map
+tag_page_data:
+  sitemap: false
