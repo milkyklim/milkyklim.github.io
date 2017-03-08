@@ -186,9 +186,6 @@ gems:
   - jekyll-feed
   - jemoji
   - jekyll-typogrify
-  - jekyll-tagging, :git => 'https://github.com/pattex/jekyll-tagging.git'
-
-
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -199,9 +196,6 @@ whitelist:
   - jemoji
   - jekyll-typogrify # might be unnecessary here
   - jekyll-tagging # might be unnecessary here
-
-
-
 
 # Archives
 #  Type
