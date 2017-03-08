@@ -18,6 +18,3 @@ in 140 characters:
 * mathematician. coder. traveler. achiever.
 * creative. open. reliable. hard-working. indispensable.
 * matlab. c. processing. java.
-
-
-<!-- end custom page -->
