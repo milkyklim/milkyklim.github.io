@@ -186,6 +186,7 @@ gems:
   - jekyll-feed
   - jemoji
   - jekyll-typogrify
+  - jekyll-tagging, :git => 'https://github.com/pattex/jekyll-tagging.git'
 
 
 
@@ -226,9 +227,9 @@ tag_archive:
 #   layouts:
 #     category: archive-taxonomy
 #     tag: archive-taxonomy
-# permalinks:
-#   category: /categories/:name/
-#   tag: /tags/:name/
+permalinks:
+  category: /categories/:name/
+  tag: /tags/:name/
 
 
 # HTML Compression
