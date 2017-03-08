@@ -1,2 +1,2 @@
 require 'jekyll/tagging'
-Liquid::Template.register_filter(Jekyll::Filters)
+Liquid::Template.register_filter(Jekyll::TaggingFilters)
