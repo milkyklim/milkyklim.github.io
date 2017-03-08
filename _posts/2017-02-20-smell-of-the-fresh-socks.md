@@ -2,10 +2,7 @@
 layout: single
 title: "Smell of the fresh socks"
 date: 2017-02-20
-tags:
-- life
-- socks
-- "washing machine"
+tags: [life, socks, washing-machine]
 ---
 I finally got a washing machine. Might be handy since I am wearing my last pair of socks.
 
