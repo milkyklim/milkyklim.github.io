@@ -34,27 +34,11 @@
         </li>
       {% endif %}
 
-      {% if author.uri %}
-        <li>
-          <a href="{{ author.uri }}" itemprop="url">
-            <i class="fa fa-fw fa-chain" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}
-          </a>
-        </li>
-      {% endif %}
-
       {% if author.email %}
         <li>
           <a href="mailto:{{ author.email }}">
             <meta itemprop="email" content="{{ author.email }}" />
             <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}
-          </a>
-        </li>
-      {% endif %}
-
-      {% if author.keybase %}
-        <li>
-          <a href="https://keybase.io/{{ author.keybase }}" itemprop="sameAs">
-            <i class="fa fa-fw fa-key" aria-hidden="true"></i> Keybase
           </a>
         </li>
       {% endif %}
@@ -67,18 +51,34 @@
         </li>
       {% endif %}
 
-      {% if author.twitter %}
-        <li>
-          <a href="https://twitter.com/{{ author.twitter }}" itemprop="sameAs">
-            <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
-          </a>
-        </li>
-      {% endif %}
-
       {% if author.facebook %}
         <li>
           <a href="https://www.facebook.com/{{ author.facebook }}" itemprop="sameAs">
             <i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook
+          </a>
+        </li>
+      {% endif %}
+
+      {% if author.uri %}
+        <li>
+          <a href="{{ author.uri }}" itemprop="url">
+            <i class="fa fa-fw fa-chain" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}
+          </a>
+        </li>
+      {% endif %}
+
+      {% if author.keybase %}
+        <li>
+          <a href="https://keybase.io/{{ author.keybase }}" itemprop="sameAs">
+            <i class="fa fa-fw fa-key" aria-hidden="true"></i> Keybase
+          </a>
+        </li>
+      {% endif %}
+
+      {% if author.twitter %}
+        <li>
+          <a href="https://twitter.com/{{ author.twitter }}" itemprop="sameAs">
+            <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
           </a>
         </li>
       {% endif %}
@@ -107,14 +107,6 @@
         </li>
       {% endif %}
 
-      {% if author.instagram %}
-        <li>
-          <a href="https://instagram.com/{{ author.instagram }}" itemprop="sameAs">
-            <i class="fa fa-fw fa-instagram" aria-hidden="true"></i> Instagram
-          </a>
-        </li>
-      {% endif %}
-
       {% if author.tumblr %}
         <li>
           <a href="https://{{ author.tumblr }}.tumblr.com" itemprop="sameAs">
@@ -135,6 +127,14 @@
         <li>
           <a href="https://github.com/{{ author.github }}" itemprop="sameAs">
             <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      {% endif %}
+
+      {% if author.instagram %}
+        <li>
+          <a href="https://instagram.com/{{ author.instagram }}" itemprop="sameAs">
+            <i class="fa fa-fw fa-instagram" aria-hidden="true"></i> Instagram
           </a>
         </li>
       {% endif %}
