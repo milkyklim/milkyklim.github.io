@@ -1,10 +1,9 @@
 ---
 layout: single
-title: "Best Döner in Berlin"
-date: 2017-03-17
+title: "Best Kebap in Berlin"
+date: 2017-03-13
 tags: [life, berlin, kebap, lifehack]
 ---
-
 Finally, checked out [Mustafa's Gemüse Kebap](https://goo.gl/maps/KoHzc7HPyHn){:target="_blank"} -- said to be "the best Döner in Berlin".
 I doubt this title but it is remarkable that they grill the vegetables.
 
