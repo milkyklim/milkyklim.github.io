@@ -1,4 +1,21 @@
 ---
+layout: archive
+permalink: /tags/
+title: "Posts by Tags"
+author_profile: true
+---
+
+{% include group-by-array collection=site.posts field="tags" %}
+
+{% for tag in group_names %}
+  {% assign posts = group_items[forloop.index0] %}
+  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
+  {% for post in posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endfor %}
+
+<!-- ---
 layout: single
 permalink: /tags/
 ---
@@ -19,7 +36,7 @@ permalink: /tags/
   {% endunless %}{% endfor %}
   </ul> -->
 
-  {% for item in (0..active_tags) %}{% unless forloop.last %}
+  <!-- {% for item in (0..active_tags) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
   <h3 id="{{ this_word | cgi_escape }}">{{ this_word }}</h3>
   <ul class="posts">
@@ -28,4 +45,4 @@ permalink: /tags/
     {% endif %}{% endfor %}
   </ul>
   {% endunless %}{% endfor %}
-</div>
+</div> -->
