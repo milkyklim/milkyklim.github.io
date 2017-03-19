@@ -239,18 +239,5 @@ defaults:
       layout: single
       author_profile: true
 
-# gave up on this thing
-# maintainer can't make it simple enough
-# # used by tag-generating plugin
-# tag_page_layout: tag_page
-# tag_page_dir: tags
-# # per tag rss
-# tag_feed_layout: tag_feed
-# tag_feed_dir: tags
-# # for pretty tag links
-# tag_permalink_style: pretty
-# # ignore some tags
-# ignored_tags: [washing-machine]
-# # exclude tags from site map
-# tag_page_data:
-#   sitemap: false
+# ignore some tags
+ignored_tags: [washing-machine]
