@@ -296,7 +296,7 @@
 
 .page__comments-form {
   padding: 1em;
-  background: $lighter-gray;
+  background: #FFFFFF; // $lighter-gray;
   transition: $global-transition;
 
   &.disabled {
