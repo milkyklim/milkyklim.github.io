@@ -11,12 +11,12 @@ The list includes 12 most inspiring activities you can do in Aachen. Have fun!
    Girls are rare guests in this town -- high chances you will end up at the party with 2-3 girls and 20 guys.
 
 2. Enjoy traditional music  
-   North Rhine-Westphalia is proud of its regional music! Enjoy traditional Öcher sounds.
+   North Rhine-Westphalia is proud of its regional music! Go for traditional Öcher sounds.
 
 3. Taste "Printen" from Nobis  
    "Printen" -- special type of cookies -- is one of the few things you can try _only_ in Aachen.
 
-4. Watch a OV movie *(Twice a week option)*  
+4. Watch an OV movie *(Twice a week option)*  
    One time it is a sneak preview where you pay half of the price but movie is chosen at random – might be "Guardians of the galaxy" or "Loft".
 
 5. Eat döner at Babylon  
