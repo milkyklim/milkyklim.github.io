@@ -6,8 +6,10 @@ main:
     url: /books/
   # - title: "You had one job"
   #   url: /you-had-one-job/
-  #- title: "Tags"
-  #  url: /tags/
+  # - title: "Isometric"
+  #   url: /isometric/
+  # - title: "Tags"
+  #   url: /tags/
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
