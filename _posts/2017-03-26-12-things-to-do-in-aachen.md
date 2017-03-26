@@ -2,10 +2,15 @@
 layout: single
 title: "Extensive guide to Aachen"
 date: 2017-03-26
-tags: aachen life advice list todo
+tags: aachen life advice list todo photo
 ---
 
 The list includes 12 most inspiring activities you can do in Aachen. Have fun!
+
+<figure>
+  <a href="https://c1.staticflickr.com/3/2866/32825928304_1ff1402ffe_b.jpg"><img src="https://c1.staticflickr.com/3/2866/32825928304_1ff1402ffe_b.jpg" alt="Enjoying Aachen boredom."></a>
+  <figcaption>Enjoying Aachen boredom.</figcaption>
+</figure>
 
 1. Go to a sausage party  
    Girls are rare guests in this town -- high chances you will end up at the party with 2-3 girls and 20 guys.
