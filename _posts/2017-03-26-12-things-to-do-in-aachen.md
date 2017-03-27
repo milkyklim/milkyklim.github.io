@@ -2,10 +2,24 @@
 layout: single
 title: "Extensive guide to Aachen"
 date: 2017-03-26
-header:
-  teaser: https://c1.staticflickr.com/3/2866/32825928304_1ff1402ffe_b.jpg
 tags: aachen life advice list todo photo
 ---
+
+{% assign a_title = "Extensive guide to Aachen" %}
+{% assign a_description = "The list includes 12 most inspiring activities you can do in Aachen. Have fun! %}
+{% assign a_image = "https://c1.staticflickr.com/3/2866/32825928304_1ff1402ffe_b.jpg" %}
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@milkyklim" />
+<meta name="twitter:title" content={{ a_title }} />
+<meta name="twitter:description" content={{ a_description }} />
+<meta name="twitter:image" content={{ a_image }} />
+
+<meta property="og:title" content={{ a_title }} />
+<meta property="og:type" content="image" />
+<meta property="og:description" content={{ a_description }}>
+<meta property="og:url" content={{ page.url }} />
+<meta property="og:image" content={{ a_image }} />
 
 The list includes 12 most inspiring activities you can do in Aachen. Have fun!
 
