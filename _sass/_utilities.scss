@@ -267,6 +267,12 @@ body:hover .visually-hidden button {
     // color: $stackoverflow-color;
   }
 
+  .fa-telegram,
+  .fa-telegram-square {
+    color: #000;
+    // color: $telegram-color;
+  }
+
   .fa-tumblr,
   .fa-tumblr-square {
     color: #000;
@@ -523,4 +529,3 @@ a.reversefootnote {
     height: 100%;
   }
 }
-
