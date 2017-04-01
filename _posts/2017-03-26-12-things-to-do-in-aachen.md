@@ -6,9 +6,8 @@ tags: aachen life advice list todo photo
 description: "The list includes 12 most inspiring activities you can do in Aachen. Have fun!"
 header:
   teaser: "https://c1.staticflickr.com/3/2866/32825928304_1ff1402ffe_b.jpg"
+leaflet: true
 ---
-
-
 
 The list includes 12 most inspiring activities you can do in Aachen. Have fun!
 
