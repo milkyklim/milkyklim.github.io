@@ -6,7 +6,7 @@ tags: aachen life advice list todo photo
 description: "The list includes 12 most inspiring activities you can do in Aachen. Have fun!"
 header:
   teaser: "https://c1.staticflickr.com/3/2866/32825928304_1ff1402ffe_b.jpg"
-leaflet: true
+leaflet: "/assets/maps/12-things-to-do-in-aachen/map.js"
 ---
 
 The list includes 12 most inspiring activities you can do in Aachen. Have fun!
@@ -54,10 +54,11 @@ The list includes 12 most inspiring activities you can do in Aachen. Have fun!
 
 <div id="aachen_to_go" class="map leaflet-container" style="height: 500px; position:relative;" ></div>
 
+{% comment %} remove the route description {% endcomment %}
 <style>
 .leaflet-control-container .leaflet-routing-container-hide {
   display: none;
 }
 </style>
 
-<script src="/assets/maps/12-things-to-do-in-aachen/map.js"></script>
+<script src="{{ page.leaflet }}"></script>
