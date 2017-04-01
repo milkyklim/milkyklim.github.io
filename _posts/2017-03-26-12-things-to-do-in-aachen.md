@@ -55,7 +55,9 @@ The list includes 12 most inspiring activities you can do in Aachen. Have fun!
 <div id="aachen_to_go" class="map leaflet-container" style="height: 500px; position:relative;" ></div>
 
 <style>
-  {% include {{ "/assets/maps/12-things-to-do-in-aachen/map.css" | relative_url }} %}
+.leaflet-control-container .leaflet-routing-container-hide {
+  display: none;
+}
 </style>
 
 <script src="/assets/maps/12-things-to-do-in-aachen/map.js"></script>
