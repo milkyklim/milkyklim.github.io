@@ -1,0 +1,35 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script language="javascript" type="text/javascript" src="p5/p5.min.js"></script>
+  <!-- uncomment lines below to include extra p5 libraries -->
+  <script language="javascript" src="p5/p5.dom.min.js"></script>
+  <script language="javascript" src="p5/p5.sound.min.js"></script>
+  <!-- <script language="javascript" type="text/javascript" src="sketch.js"></script> -->
+
+  <script type="text/javascript">
+    function setup() {
+      createCanvas(720, 400);
+      myCanvas.parent('404_sketch');
+    }
+
+    function draw() {
+      background(127);
+      noStroke();
+      for (var i = 0; i < height; i += 20) {
+        fill(129, 206, 15);
+        rect(0, i, width, 10);
+        fill(255);
+        rect(i, 0, 10, height);
+      }
+      noLoop();
+    }
+  </script>
+
+  <!-- this line removes any default padding and style. you might only need one of these values set. -->
+  <style> body {padding: 0; margin: 0;} </style>
+</head>
+
+<body>
+</body>
+</html>
