@@ -12,8 +12,8 @@ leaflet: "/assets/maps/12-things-to-do-in-aachen/map.js"
 The list includes 12 most inspiring activities you can do in Aachen. Have fun!
 
 <figure>
-  <a href="https://c1.staticflickr.com/3/2866/32825928304_1ff1402ffe_b.jpg"><img src="https://c1.staticflickr.com/3/2866/32825928304_1ff1402ffe_b.jpg" alt="Enjoying Aachen boredom."></a>
-  <figcaption>Enjoying Aachen boredom.</figcaption>
+  <a href="{{ page.header.teaser }}"><img src="{{ page.header.teaser }}" alt="Enjoying Aachen boredom."></a>
+  <figcaption>Enjoying Aachen boredom</figcaption>
 </figure>
 
 1. Go to a sausage party  
@@ -53,7 +53,6 @@ The list includes 12 most inspiring activities you can do in Aachen. Have fun!
    Difficult to understand why people are so happy to get an ice-cream. But you'll get there pretty soon.
 
 <div id="aachen_to_go" class="map leaflet-container" style="height: 500px; position:relative;" ></div>
-
 {% comment %} remove the route description {% endcomment %}
 <style>
 .leaflet-control-container .leaflet-routing-container-hide {
