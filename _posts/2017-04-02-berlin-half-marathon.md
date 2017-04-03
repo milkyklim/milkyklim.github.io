@@ -10,12 +10,12 @@ It is Sunday and I am done with the [Berlin half marathon 2017](http://www.berli
 
 My official timing:
 
-km | time
-:---:| :-----:
-5  | 0:27:24
-10 | 0:55:24
-15 | 1:25:32
-21 | 2:02:41
+km | time | min/km
+:---:|:-----:|:-----:
+5  | 0:27:24 | 05:29
+10 | 0:55:24 | 05:37
+15 | 1:25:32 | 06:02
+21 | 2:02:41 | 06:06
 
 The first 10 km look great. My optimistic goal was to finish in 1:45:00 and realistic goal was to beat 2:00:00. But I failed to accomplish any of these goals.
 
