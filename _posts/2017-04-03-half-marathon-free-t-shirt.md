@@ -8,7 +8,7 @@ header:
   teaser: "https://c1.staticflickr.com/3/2896/33801800625_0f4fae793a_k.jpg"
 ---
 
-The registration for the half marathon was quite long. When I finally reached the registration desk I got the sticker and a timing chip. A little bit later I received a bag with useless journals, shower gel and deodorant for women.
+The registration for the half marathon was quite long. When I finally reached the registration desk I got a sticker and a timing chip. A little bit later I received a bag with useless journals, shower gel and deodorant for women.
 
 But I was looking for a T-shirt. I have seen adidas among sponsors and was sure that there should be an event T-shirt (Last time I messed it up – forgot to take the T-shirt – and had to go to the registration again).
 
