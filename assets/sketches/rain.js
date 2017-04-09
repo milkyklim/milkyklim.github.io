@@ -10,14 +10,17 @@ var colBG; // background color
 var isPressed = false; // bollean to check if mouse/screen was pressed
 
 function setup() {
+  // find the size of the underlying div
+  var divWidth = $("#rain").width();
+  var divHeight = $("#rain").height();
   // the canvas is defined as half the height and width of the window
-  myCanvas = createCanvas(windowWidth/2, windowHeight/2);
+  myCanvas = createCanvas(divWidth, divHeight);
   myCanvas.parent('rain');
   horizon = height/2;
   colFG = color(0, 0, 0);
   colBG = color(255, 255, 255);
   // Populate the rainDrops array with RainDrop objects
-  raindropNum = windowWidth/3;
+  raindropNum = divWidth/3; //windowWidth/3;
   for(var i = 0; i < raindropNum; i++){
     rainDrops.push(new RainDrop(3));
   }
@@ -57,7 +60,10 @@ function draw() {
 }
 //when the window is resized the canvas is resized accordingly
 function windowResized(){
-  resizeCanvas(windowWidth/2, windowHeight/2);
+  var divWidth = $("#rain").parent().width();
+  var divHeight = $("#rain").height();
+
+  resizeCanvas(divWidth, divHeight);
 }
 // this function switches the foreground and background colors
 function invertColor(){
