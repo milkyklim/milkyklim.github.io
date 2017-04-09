@@ -1,4 +1,5 @@
 // adopted from http://janovel.github.io/Pixel_Rain/
+"use strict";
 var raindropNum; // max number of drops to be drawn on the screen
 var rainDrops = []; // the array holding the RainDrop objects
 var rainSplashes = []; // the array holding the RainSplash objects
@@ -14,7 +15,7 @@ function setup() {
   var divWidth = $("#rain").width();
   var divHeight = $("#rain").height();
   // the canvas is defined as half the height and width of the window
-  myCanvas = createCanvas(divWidth, divHeight);
+  var myCanvas = createCanvas(divWidth, divHeight);
   myCanvas.parent('rain');
   horizon = height/2;
   colFG = color(0, 0, 0);
