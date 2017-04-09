@@ -29,7 +29,7 @@ Looks easy to fix:
 - say that there is a mistake;  
 - don't pay the tax.
 
-Right? But here you see the real power of German bureaucracy.
+Right? But here you face the real power of German bureaucracy.
 
 > She had to talk to the priest to give her the official paper stating that she was not the member of the church anymore! ¯\\\_(ツ)\_/¯
 
