@@ -33,4 +33,4 @@ Right? But here you see the real power of German bureaucracy.
 
 > She had to talk to the priest to give her the official paper stating that she was not the member of the church anymore! ¯\\\_(ツ)\_/¯
 
-<div id="rain" style="height: 500px; position:relative;" ></div>
+<div id="rain" style="height: 300px; position:relative;" ></div>
