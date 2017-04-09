@@ -2,7 +2,7 @@
 layout: single
 title: "Right it write"
 date: 2017-04-09
-tags: life germany bureaucracy
+tags: life germany bureaucracy p5
 description: "When German bureaucracy fails."
 p5:
   - p5
@@ -10,7 +10,9 @@ sketches:
   - rain
 ---
 
-I always thought that Germany is the country where everything works perfectly: and if a problem occurs it is solved within a couple of hours. Sadly, I was too optimistic about Germany.
+I always thought that Germany is the country where everything works perfectly: and if a problem occurs it is solved within a couple of hours.
+
+Sadly, I was too optimistic.
 
 I [gave up]({{ site.url }}/you-had-one-job/) on the fact that people will spell my name right. But what is wrong with typing my German address at the registration office? Is that difficult to enter one number and avoid multiple waves of frustration?
 
