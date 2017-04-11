@@ -73,6 +73,10 @@ function invertColor(){
   colFG = temp;
 }
 
+function touchEnded(){
+  return false;
+}
+
 class RainDrop{
   // the only input the object takes is size
   constructor(_size){
