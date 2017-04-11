@@ -29,7 +29,7 @@ function setup() {
 
 function draw() {
   //Check to see if screen or mouse are pressed
-  if(mouseIsPressed /* || touchIsDown */){
+  if(mouseIsPressed || touches.length != 0 /* || touchIsDown */){
     if(!isPressed){
       invertColor();
       isPressed = true;
