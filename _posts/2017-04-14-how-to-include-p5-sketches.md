@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Add resizable p5.js sketch to the blog"
+title: "Add a resizable p5.js sketch to the blog"
 permalink: /p5-website-jekyll/
 date: 2017-04-14
 tags: coding p5 howto
