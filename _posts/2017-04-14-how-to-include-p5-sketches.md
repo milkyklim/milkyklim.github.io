@@ -142,7 +142,7 @@ And here is the sketch that you should see!
 
 <div id="setup_p5_sketch" style="height: 300px; position:relative;" ></div>
 
-Overall, I find this approach more elegant than any from the p5.js [wiki](https://github.com/processing/p5.js/wiki/Embedding-p5.js) since it makes you portfolio/website look more professional and mobile-friendly.
+Overall, I find this approach more elegant than any from the p5.js [wiki](https://github.com/processing/p5.js/wiki/Embedding-p5.js) since it makes your portfolio/website look more professional and mobile-friendly.
 
 Enjoy hacking!
 
