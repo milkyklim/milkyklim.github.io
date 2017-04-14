@@ -61,7 +61,7 @@ function draw() {
 }
 //when the window is resized the canvas is resized accordingly
 function windowResized(){
-  var divWidth = $("#rain").parent().width();
+  var divWidth = $("#rain").width();
   var divHeight = $("#rain").height();
 
   resizeCanvas(divWidth, divHeight);
