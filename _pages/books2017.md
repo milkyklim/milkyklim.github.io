@@ -3,6 +3,9 @@ layout: single
 permalink: /books/
 ---
 
+April:
+* The Circle -- Dave Eggers 
+
 March:
 * Flowers for Algernon -- Daniel Keyes
 
