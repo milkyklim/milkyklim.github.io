@@ -1,7 +1,3 @@
-# # # # # # # # # # # # #
-#   K i k o - p l u s   #
-# # # # # # # # # # # # #
-
 # Basic
 name:               ":glass_of_milk:"
 
@@ -10,30 +6,10 @@ author:
   telegram:         milkyklim
   instagram:        _milkyklim
   linkedin:         klimkolyvanov
-  # facebook:         your-id
-  # youtubeUser:      your-id
-  # youtubeChannel:   your-id
-  # twitter:          your-id
-  # stackoverflow:    your-id
-  # quora:            your-id
-  # pinterest:        your-id
-  # googlePlus:       your-id
-  # reddit:           your-id
-  # medium:           your-id
-  # tumblr:           your-id
-  # email:            your-id@your-email.com
 
 copyright:
   year:             2019
   name:             milkyklim
-
-# # Google-analytics
-# google-analytics:
-#   id:               ""
-
-# # Disqus
-# disqus:
-#   id:               "kiko-plus"
 
 # URL
 url:                "https://milkyklim.github.io" # the base hostname & protocol for your site
