@@ -22,7 +22,7 @@ timezone:           Europe/Berlin
 permalink:          /:year-:month-:day/:title/
 
 # Pagination
-paginate:           5
+paginate:           9
 paginate_path:      /page:num/
 
 # Markdown
@@ -36,10 +36,6 @@ nav:
     url:            "/about"
   - name:           "Archive"
     url:            "/archive"
-  - name:           "Tags"
-    url:            "/tags"
-  - name:           "Github"
-    url:            "https://github.com/milkyklim"
 
 # Sass
 sass:
