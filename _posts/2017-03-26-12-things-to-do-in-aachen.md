@@ -9,7 +9,7 @@ header:
 leaflet: "/assets/maps/12-things-to-do-in-aachen/map.js"
 ---
 
-The list includes 12 most inspiring activities you can do in Aachen. Have fun!
+The list includes ~~12~~ 11 most inspiring activities you can do in Aachen. Have fun!
 
 <figure class="center">
   <a href="{{ page.header.teaser }}"><img src="{{ page.header.teaser }}" class="center-image" width="400" alt="Enjoying Aachen boredom."></a>
