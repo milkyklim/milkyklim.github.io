@@ -25,11 +25,11 @@ The list includes ~~12~~ 11 most inspiring activities you can do in Aachen. Have
 3. Taste "Printen" from Nobis  
    "Printen" -- special type of cookies -- is one of the few things you can try _only_ in Aachen.
 
-4. Watch an OV movie *(Twice a week option)*  
+4. Watch an OV movie _(Twice a week option)_  
    One time it is a sneak preview where you pay half of the price but movie is chosen at random – might be "Guardians of the galaxy" or "Loft".
 
 5. Eat döner at Babylon  
-   The cheapest döner in town. The *dairy* shop was being ran in the same building during the WWII (at least that's what the metal plate on the wall says).
+   The cheapest döner in town. The _dairy_ shop was being ran in the same building during the WWII (at least that's what the metal plate on the wall says).
 
 6. Visit WG at Stiftstr. 2  
    This place was my island of happiness. When there is nothing to do in town you can explore the mindsets of your flatmates.
@@ -46,7 +46,7 @@ The list includes ~~12~~ 11 most inspiring activities you can do in Aachen. Have
 10. Escape Aachen  
    The best option might be Weeze Airport. As a student you pay nothing to get there. The flight to Venice may cost only 10 euros. If you really into Aachen come back to this option after month of staying in town.
 
-11. Go shopping to Vaals *(Sunday option)*  
+11. Go shopping to Vaals _(Sunday option)_  
    This is the best _(only)_ activity you can choose on Sunday since Aachen is completely dead.
 
 12. Get Del Negro ice-cream *(Warm seasons option)*  
