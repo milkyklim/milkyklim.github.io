@@ -1,6 +1,6 @@
 # Basic
 title:               ":glass_of_milk:"
-description:         "Ridiculous collection of posts"
+description:         "Ridiculous collection of posts."
 
 author:
   github:           milkyklim
@@ -21,7 +21,7 @@ url:                "http://milkyklim.com" # the base hostname & protocol for yo
 # url:                "http://localhost:4000" # use this url when you develop
 baseurl:            "" # the subpath of your site, e.g. /blog
 
-logo:               "/assets/images/favicon.ico"
+logo:               "/assets/images/logo.png"
 # SEO
 twitter:
   username:         milkyklim
