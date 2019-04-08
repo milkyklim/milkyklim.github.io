@@ -2,10 +2,9 @@
 {% if url %}
   {% assign seo_url = site.url | append: site.baseurl %}
 {% endif %}
-<!-- {% assign seo_url = seo_url | default: site.github.url %} -->
 
 {% if page.title %}
-  {% assign seo_title = page.title | append: " " | append: site.name %}
+  {% assign seo_title = page.title | append: " | " | append: site.name %}
 {% endif %}
 
 {% if seo_title %}
@@ -61,12 +60,16 @@
   {% if page.header.image %}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | absolute_url }}{% endif %}">
+    kek
   {% else %}
     <meta name="twitter:card" content="summary">
+    lol
     {% if page.header.teaser %}
       <meta name="twitter:image" content="{% if page.header.teaser contains "://" %}{{ page.header.teaser }}{% else %}{{ page.header.teaser | absolute_url }}{% endif %}">
+    aloe
     {% elsif site.og_image %}
-      <meta name="twitter:image" content="{{ site.og_image | absolute_url }}">
+      <meta name="twitter:image" content="{{ site.og_image | prepend: site.url }}">
+      arrrrrgh
     {% endif %}
   {% endif %}
 
@@ -93,7 +96,7 @@
 {% elsif page.header.teaser %}
   <meta property="og:image" content="{% if page.header.teaser contains "://" %}{{ page.header.teaser }}{% else %}{{ page.header.teaser | absolute_url }}{% endif %}">
 {% elsif site.og_image %}
-  <meta property="og:image" content="{% if site.og_image contains "://" %}{{ site.og_image }}{% else %}{{ site.og_image | absolute_url }}{% endif %}">
+  <meta property="og:image" content="{{ site.og_image | prepend: site.url }}">
 {% endif %}
 
 {% if page.date %}
@@ -114,7 +117,7 @@
       "@context": "http://schema.org",
       "@type": "Organization",
       "url": {{ seo_url | jsonify }},
-      "logo": {{ site.og_image | absolute_url | jsonify }}
+      "logo": {{ site.og_image | prepend: site.url | jsonify }}
     }
   </script>
 {% endif %}
