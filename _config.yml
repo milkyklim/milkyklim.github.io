@@ -1,14 +1,13 @@
 # Basic
-name:               ":glass_of_milk:"
 title:               ":glass_of_milk:"
-description:        "Ridiculous collection of posts"
+description:         "Ridiculous collection of posts"
 
 author:
   github:           milkyklim
   telegram:         milkyklim
   instagram:        _milkyklim
   linkedin:         klimkolyvanov
-  # this are not included in the 
+  # used for seo only
   name:             milkyklim
   twitter:          milkyklim
   facebook:         klim.kolyvanov
@@ -22,13 +21,18 @@ url:                "http://milkyklim.com" # the base hostname & protocol for yo
 # url:                "http://localhost:4000" # use this url when you develop
 baseurl:            "" # the subpath of your site, e.g. /blog
 
-# open graph image
-og_image:           "/assets/images/favicon.ico"
-# SEO Related
-google_site_verification : "rPtrI6eJcpn_JSiDLxEW_qSC-rRRqaZ3UwcGNLJY9Yw"
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification : "c389c761ced1c4f5"
+logo:               "/assets/images/favicon.ico"
+# SEO
+twitter:
+  username:         milkyklim
+  card:             summary
+facebook:
+  app_id: 
+  publisher:
+  admins:
+webmaster_verifications:
+  google:           "rPtrI6eJcpn_JSiDLxEW_qSC-rRRqaZ3UwcGNLJY9Yw"
+  yandex:           "c389c761ced1c4f5"
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:           Europe/Berlin
@@ -72,7 +76,7 @@ defaults:
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
 plugins:
-  # - jekyll-seo-tag
+  - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-admin
 
