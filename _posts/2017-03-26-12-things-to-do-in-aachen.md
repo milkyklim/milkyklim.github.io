@@ -4,8 +4,7 @@ title: "Extensive guide to Aachen"
 date: 2017-03-26
 tags: [aachen, life, advice, list, todo, photo]
 description: "The list includes 12 most inspiring Aachen activities. Have fun!"
-header:
-  teaser: "https://c1.staticflickr.com/3/2866/32825928304_1ff1402ffe_b.jpg"
+image: "https://c1.staticflickr.com/3/2866/32825928304_1ff1402ffe_b.jpg"
 leaflet: "/assets/maps/12-things-to-do-in-aachen/map.js"
 ---
 
