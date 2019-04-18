@@ -4,8 +4,7 @@ date: 2019-04-01
 title: "Citizenship!"
 description: "Officially tight to this country."
 tags: [banano, citizenship, crypto]
-header:
-  teaser: "https://live.staticflickr.com/65535/46910851254_49beac5a7b_o.png"
+image: "https://live.staticflickr.com/65535/46910851254_49beac5a7b_o.png"
 ---
 
 Hold on for a sec -- I didn't get German citizenship. It's somethig better: 
