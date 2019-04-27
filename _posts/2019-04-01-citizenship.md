@@ -7,7 +7,7 @@ tags: [banano, citizenship, crypto]
 image: "https://live.staticflickr.com/65535/46910851254_49beac5a7b_o.png"
 ---
 
-Hold on for a sec -- I didn't get German citizenship. It's somethig better: 
+Hold on for a sec -- I didn't get German citizenship. It's something better: 
 
 > I am a proud citizen of _Banano Republic_ now! 
 
