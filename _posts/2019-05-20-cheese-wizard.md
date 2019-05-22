@@ -16,6 +16,6 @@ To make sure that I am doing everything right I've bought a cheese wizard today:
   <figcaption>The power of creation!</figcaption>
 </figure>
 
-Yes, this wizard (who is basically a hashcode) costs real money but now I can participate in the tournament to get the Great Cheese title!
+Yes, this wizard (who is basically a hashcode) costs real money but now I can participate in the tournament to get the Big Cheese title!
 
 If you want to get your own cheese wizard (I see no reason why you wouldn't have one) head to [cheezewizards.com](https://www.cheezewizards.com){:target="_blank"}. You might be surprised that price of the elemental wizard is above 200$ now. :see_no_evil:
