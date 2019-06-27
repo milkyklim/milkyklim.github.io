@@ -3,7 +3,7 @@ layout: null
 permalink: /banano-rain
 title: Banano Rain
 description: "It is soooo rainy in the jungle!"
-image: "./assets/images/banano/hng.svg"
+image: "{{ site.baseurl }}/assets/images/banano/hng.svg"
 ---
 <html>
   <head>
