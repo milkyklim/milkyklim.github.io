@@ -3,8 +3,9 @@ layout: null
 permalink: /banano-rain
 title: Banano Rain
 description: "It is soooo rainy in the jungle!"
-image: "{{ site.baseurl }}/assets/images/banano/hng.svg"
+image: "https://milkyklim.com/assets/images/banano/hng.svg"
 ---
+
 <html>
   <head>
     <meta charset="utf-8">
