@@ -8,7 +8,7 @@ const sketch = (s) => {
   const NWORDS = 5;
   const FONTSIZE = 96;
   const REKT = 'reKt';
-  const FONTPATH = 'assets/fonts/Flatiron Casual.ttf';
+  const FONTPATH = './assets/fonts/Flatiron Casual.ttf';
 
   const NAME = "rekt";
 
