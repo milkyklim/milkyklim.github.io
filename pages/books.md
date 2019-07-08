@@ -18,7 +18,13 @@ Done:
 
 - Новые Правила Деловой Переписки
 
+- Rock Breaks Scissors
+
+- На Пике
+
 
 In-progress: 
 
 - The Black Swan
+
+- Mastering the Market Cycle
