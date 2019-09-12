@@ -1,6 +1,7 @@
 ---
 title: About
-permalink: /about/
+permalink: /about
+
 ---
 
 PhD drop-out who gave up on normal job. Looking for something that might inspire me. 
